@@ -1,3 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +42,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+li {
+  border: solid rgb(42, 196, 243) 4px;
+  padding: 20px;
+  margin: 20px;
+  list-style: none;
+}
+
+
+
+
+.neobrut{
+  background-color: #00dc96;
+  border: 2px solid #222222;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #fdfa75;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 13px 23px;
+  box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
+}
+
+.neobrut:active {
+  background-color: #ffb5d8;
+  transform: scale(.96);
+  color: #fef979;
+}
+
+.prueba{
+  display: flex;
+}
+
+.margenes{
+  margin-left: 10px;
 }
